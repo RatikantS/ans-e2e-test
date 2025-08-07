@@ -4,11 +4,19 @@
   "author": "SINEC ANS Team",
   "description": "ANS E2E Test Suite",
   "private": "true",
+  "type": "module",
   "scripts": {
     "format:check": "prettier --check src/**/*.{ts,js,json,md}",
-    "format": "prettier --write src/**/*.{ts,js,json,md}"
+    "format": "prettier --write src/**/*.{ts,js,json,md}",
+    "lint": "eslint src/**/*.{ts,js}"
   },
   "devDependencies": {
+    "@eslint/js": "^9.32.0",
+    "@typescript-eslint/eslint-plugin": "^8.39.0",
+    "@typescript-eslint/parser": "^8.39.0",
+    "eslint": "^9.32.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.3",
     "prettier": "^3.6.2",
     "typescript": "^5.8.3"
   }
