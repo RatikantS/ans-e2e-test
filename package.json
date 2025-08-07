@@ -1,0 +1,15 @@
+{
+  "name": "ans-e2e-test",
+  "version": "1.0.0",
+  "author": "SINEC ANS Team",
+  "description": "ANS E2E Test Suite",
+  "private": "true",
+  "scripts": {
+    "format:check": "prettier --check src/**/*.{ts,js,json,md}",
+    "format": "prettier --write src/**/*.{ts,js,json,md}"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "typescript": "^5.8.3"
+  }
+}
