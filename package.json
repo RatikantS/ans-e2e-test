@@ -8,15 +8,20 @@
   "scripts": {
     "format:check": "prettier --check src/**/*.{ts,js,json,md}",
     "format": "prettier --write src/**/*.{ts,js,json,md}",
-    "lint": "eslint src/**/*.{ts,js}"
+    "lint": "eslint src/**/*.{ts,js}",
+    "prepare": "husky"
   },
   "devDependencies": {
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
     "@eslint/js": "^9.32.0",
     "@typescript-eslint/eslint-plugin": "^8.39.0",
     "@typescript-eslint/parser": "^8.39.0",
     "eslint": "^9.32.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.3",
+    "husky": "^9.1.4",
+    "lint-staged": "^15.5.2",
     "prettier": "^3.6.2",
     "typescript": "^5.8.3"
   }
